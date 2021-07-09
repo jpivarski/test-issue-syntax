@@ -1,6 +1,6 @@
 name: Bug report
 description: Something seems to be broken…
-title: ''
+title: 'Bug'
 labels: ["bug (unverified)"]
 assignees: []
 

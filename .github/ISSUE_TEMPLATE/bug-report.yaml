@@ -27,6 +27,7 @@ body:
         >>> import awkward as ak
         >>> ak.__version__
         ```
+      placeholder: major.minor.patch
     validations:
       required: true
   - type: textarea

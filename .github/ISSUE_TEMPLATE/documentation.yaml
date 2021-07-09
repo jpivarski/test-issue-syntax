@@ -22,6 +22,7 @@ body:
     attributes:
       label: What
       description: What part of Awkward Array needs documenting?
+      default: Python API
       options:
         - Tutorials
         - Python API

@@ -3,7 +3,7 @@ description: It works, but it could/should be faster…
 title: 'Performance Bug'
 labels:
   - performance
-assignees: ''
+assignees: []
 
 body:
   - type: markdown

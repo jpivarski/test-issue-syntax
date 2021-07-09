@@ -33,6 +33,8 @@ body:
       label: Reproducer Code
       description: Please copy and paste some code that reproduces the bug. This will be automatically formatted into code, so no need for backticks.
       render: python
+      placeholder: |
+        import awkward as ak
   - type: textarea
     id: traceback
     attributes:

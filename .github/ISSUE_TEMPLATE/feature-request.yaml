@@ -19,7 +19,7 @@ body:
            * [StackOverflow: [awkward-array] tag](https://stackoverflow.com/questions/tagged/awkward-array)
            * [Gitter: Scikit-HEP/awkward-array room](https://gitter.im/Scikit-HEP/awkward-array)
   - type: textarea
-    id: observed
+    id: feature
     attributes:
       label: Describe the Feature
       description: Please describe the feature that you would like to see implemented.

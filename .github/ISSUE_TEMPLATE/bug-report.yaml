@@ -47,7 +47,7 @@ body:
   - type: textarea
     id: observed
     attributes:
-      label: What Happens
+      label: Describe What Happens
       description: Please describe what happens when you run the reproducer.
       placeholder: Tell us what happens!
     validations:
@@ -55,7 +55,7 @@ body:
   - type: textarea
     id: expected
     attributes:
-      label: What Should Happen
+      label: Describe What Should Happen
       description: Please describe what you expect to happen when you run the reproducer.
       placeholder: Tell us what you expected to happen!
 

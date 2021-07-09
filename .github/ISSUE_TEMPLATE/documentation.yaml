@@ -20,7 +20,7 @@ body:
   - type: dropdown
     id: layer
     attributes:
-      label: What
+      label: Which Part of Awkward Array
       description: What part of Awkward Array needs documenting?
       options:
         - Tutorials

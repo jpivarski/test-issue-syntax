@@ -8,9 +8,9 @@ assignees: []
 
 body:
   - type: dropdown
-    id: layer
+    id: area
     attributes:
-      label: Which Part of Awkward Array?
+      label: Area of Documentation
       description: |
         On the [tutorials site](https://awkward-array.org/)?
 
@@ -30,7 +30,7 @@ body:
   - type: textarea
     id: what
     attributes:
-      label: What Needs Documentation?
+      label: What to Document
       description: Please describe what part of the Awkward API or usage you would like to see explained.
       placeholder: Tell us what needs documenting!
     validations:

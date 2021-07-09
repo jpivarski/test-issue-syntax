@@ -7,9 +7,11 @@ labels:
 assignees: []
 
 body:
-  - type: markdown
+  - type: dropdown
+    id: layer
     attributes:
-      value: |
+      label: Which Part of Awkward Array?
+      description: |
         On the [tutorials site](https://awkward-array.org/)?
 
         In the [Python docstrings](https://awkward-array.readthedocs.io/)?
@@ -17,11 +19,6 @@ body:
         In the [C++ doxygen API](https://awkward-array.readthedocs.io/en/latest/_static/index.html)?
 
         What, specifically, needs more explanation?
-  - type: dropdown
-    id: layer
-    attributes:
-      label: Which Part of Awkward Array?
-      description: What part of Awkward Array needs documenting?
       options:
         - Tutorials
         - Python API

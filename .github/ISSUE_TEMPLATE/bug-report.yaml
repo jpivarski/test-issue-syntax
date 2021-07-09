@@ -24,7 +24,7 @@ body:
         >>> ak.__version__
         ```
         
-        If this is *not* the [latest version](https://pypi.org/project/awkward/)), you should update to check whether the bug still exists.
+        If this is *not* the [latest version](https://pypi.org/project/awkward/), you should update to check whether the bug still exists.
       placeholder: MAJOR.MINOR.PATCH
     validations:
       required: true

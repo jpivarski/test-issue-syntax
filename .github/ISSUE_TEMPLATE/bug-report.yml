@@ -29,6 +29,7 @@ body:
         - What did it do instead? (Include full log output in [backticks](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks). Copy-pasted text is better than screenshots.)
 
         If your code example requires data, be sure to include it in a way that is publicly accessible, such as clicking on the rectangle below to highlight it and then dragging the file in. (You can [pickle](https://docs.python.org/3/library/pickle.html) Awkward Arrays, but verify that the issue applies to pickled arrays as well as the original arrays.)
+      placeholder: "Tell us what's not working."
     validations:
       required: true
 

@@ -13,7 +13,7 @@ body:
       options:
         - Tutorials site
         - Python docstrings
-        - C++ doxygen
+        - C++ doxygen API
         - Other (please explain)?
     validations:
       required: true
@@ -22,7 +22,6 @@ body:
     id: what
     attributes:
       label: "What needs to be documented?"
-      description: |
-        Please describe what needs to be explained or more fully documented.
+      placeholder: "Tell us what you need to know."
     validations:
       required: true

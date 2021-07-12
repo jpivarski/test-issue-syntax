@@ -15,7 +15,7 @@ body:
         ```
 
         (Your issue might have already been fixed; see [latest version](https://pypi.org/project/awkward/).)
-      placeholder: XX.YY.ZZ
+      placeholder: "XX.YY.ZZ"
     validations:
       required: true
 

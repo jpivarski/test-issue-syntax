@@ -24,9 +24,9 @@ body:
     attributes:
       label: Description and code to reproduce
       description: |
-           * What did you attempt to do? Include code so that we can reproduce it (in [backticks](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks)).
-           * What did you expect it to do?
-           * What did it do instead? (Include full log output in [backticks](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks). Copy-pasted text is better than screenshots.)
+        - What did you attempt to do? Include code so that we can reproduce it (in [backticks](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks)).
+        - What did you expect it to do?
+        - What did it do instead? (Include full log output in [backticks](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks). Copy-pasted text is better than screenshots.)
 
         If your code example requires data, be sure to include it in a way that is publicly accessible. (Hint: you can [pickle](https://docs.python.org/3/library/pickle.html) Awkward Arrays, but verify that the issue applies to pickled arrays as well as the original arrays.)
       render: markdown

@@ -24,5 +24,7 @@ body:
       placeholder: "Tell us what you need."
       description: |
         Please be specific, with code examples and expected output (in [backticks](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks)) where it would help.
+
+        If you need to include a file, try **clicking on the rectangle below to highlight it** and then dragging the file in.
     validations:
       required: true

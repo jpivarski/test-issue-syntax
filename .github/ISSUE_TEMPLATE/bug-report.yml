@@ -20,7 +20,7 @@ body:
       required: true
 
   - type: textarea
-    id: reproducer
+    id: description
     attributes:
       label: Description and code to reproduce
       description: |
@@ -29,7 +29,6 @@ body:
         - What did it do instead? (Include full log output in [backticks](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks). Copy-pasted text is better than screenshots.)
 
         If your code example requires data, be sure to include it in a way that is publicly accessible. (Hint: you can [pickle](https://docs.python.org/3/library/pickle.html) Awkward Arrays, but verify that the issue applies to pickled arrays as well as the original arrays.)
-      render: markdown
     validations:
       required: true
 

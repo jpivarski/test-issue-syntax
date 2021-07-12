@@ -1,16 +1,13 @@
-
 name: Documentation
-description: Something needs to be explained…
-title: Documentation
-labels:
-  - docs
+description: "Something needs to be explained…"
+labels: ["docs"]
 assignees: []
 
 body:
   - type: dropdown
     id: where
     attributes:
-      label: Which documentation?
+      label: "Which documentation?"
       description: |
         On the [tutorials site](https://awkward-array.org/), in the [Python docstrings](https://awkward-array.readthedocs.io/), or in the [C++ doxygen API](https://awkward-array.readthedocs.io/en/latest/_static/index.html)?
       options:
@@ -24,7 +21,7 @@ body:
   - type: textarea
     id: what
     attributes:
-      label: What needs to be documented?
+      label: "What needs to be documented?"
       description: |
         Please describe what needs to be explained or more fully documented.
     validations:

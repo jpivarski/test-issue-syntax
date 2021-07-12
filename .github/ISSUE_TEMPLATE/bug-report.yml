@@ -7,7 +7,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: Version of Awkward Array
+      label: "Version of Awkward Array"
       description: |
         ```python
         >>> import awkward as ak
@@ -22,7 +22,7 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: Description and code to reproduce
+      label: "Description and code to reproduce"
       description: |
         - What did you attempt to do? Include code so that we can reproduce it (in [backticks](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks)).
         - What did you expect it to do?

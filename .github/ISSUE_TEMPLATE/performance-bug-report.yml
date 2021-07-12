@@ -33,7 +33,7 @@ body:
     attributes:
       label: "Description and code to reproduce"
       description: |
-        If your code example requires data, be sure to include it in a way that is publicly accessible, such as clicking on the rectangle below to highlight it and then dragging the file in. (You can [pickle](https://docs.python.org/3/library/pickle.html) Awkward Arrays, but verify that the issue applies to pickled arrays as well as the original arrays.)
+        If your code example requires data, be sure to include it in a way that is publicly accessible, such as **clicking on the rectangle below to highlight it** and then dragging the file in. (You can [pickle](https://docs.python.org/3/library/pickle.html) Awkward Arrays, but verify that the issue applies to pickled arrays as well as the original arrays.)
       placeholder: "Tell us what should be faster."
     validations:
       required: true

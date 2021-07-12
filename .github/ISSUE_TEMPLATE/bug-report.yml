@@ -1,4 +1,4 @@
-name: Bug report
+name: "Bug report"
 description: "Something seems to be broken…"
 labels: ["bug (unverified)"]
 assignees: []

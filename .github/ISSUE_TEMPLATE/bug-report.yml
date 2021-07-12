@@ -7,10 +7,8 @@ body:
   - type: input
     id: version
     attributes:
-      label: Version
+      label: Version of Awkward Array
       description: |
-        What version of Awkward Array are you using?
-
         ```python
         >>> import awkward as ak
         >>> ak.__version__

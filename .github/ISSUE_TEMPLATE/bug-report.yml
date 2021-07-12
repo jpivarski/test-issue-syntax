@@ -11,10 +11,11 @@ body:
         Thank you for submitting an issue! (I know that it takes time and effort to do so.)
 
         Note that we'll be closing the issue as soon as a solution is proposed. This is not meant to be unfriendly; it's for our own bookkeeping. If you think the first answer/solution is unsatisfactory, please do continue the thread and we'll reopen it or otherwise address it.
+
   - type: input
     id: version
     attributes:
-      label: Awkward Version
+      label: Version
       description: |
         What version of Awkward Array are you using? You can discover this by running
 
@@ -27,15 +28,24 @@ body:
       placeholder: MAJOR.MINOR.PATCH
     validations:
       required: true
+
   - type: textarea
     id: reproducer
     attributes:
-      label: Description and code to reproduce
+      label: Description and reproducer
       description: |
         Describe what you attempted to do, with code to reproduce it (in [backticks](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks)), what you expected that code to do, and what it did instead.
 
         If your code example requires data, be sure to include it in a way that is publicly accessible. (Hint: you can [pickle](https://docs.python.org/3/library/pickle.html) Awkward Arrays and drag the pickle files into GitHub issues. That's probably the easiest way to supply an example.)
-      value: |
+      placeholder: |
+        What you were trying to do...
+
+        ```python
         import awkward as ak
+
+        reproducer...
+        ```
+
+        What you expected and what happened instead.
     validations:
       required: true

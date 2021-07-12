@@ -22,6 +22,8 @@ body:
     id: what
     attributes:
       label: "What needs to be documented?"
+      description: |
+        If you need to include a screenshot, try **clicking on the rectangle below to highlight it** and then dragging the file in or pasting from the clipboard.
       placeholder: "Tell us what you need to know."
     validations:
       required: true

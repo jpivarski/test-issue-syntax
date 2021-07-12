@@ -1,6 +1,5 @@
 name: Bug report
-description: Something seems to be broken…
-title: "Describe what's wrong here."
+description: "Something seems to be broken…"
 labels: ["bug (unverified)"]
 assignees: []
 
@@ -17,15 +16,14 @@ body:
     attributes:
       label: Version
       description: |
-        What version of Awkward Array are you using? You can discover this by running
+        What version of Awkward Array are you using?
 
         ```python
         >>> import awkward as ak
         >>> ak.__version__
         ```
 
-        If this is *not* the [latest version](https://pypi.org/project/awkward/), please update and check to see if the bug still exists.
-      placeholder: MAJOR.MINOR.PATCH
+        (Your bug might have already been fixed; see [latest version](https://pypi.org/project/awkward/).)
     validations:
       required: true
 
@@ -37,15 +35,6 @@ body:
         Describe what you attempted to do, with code to reproduce it (in [backticks](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks)), what you expected that code to do, and what it did instead.
 
         If your code example requires data, be sure to include it in a way that is publicly accessible. (Hint: you can [pickle](https://docs.python.org/3/library/pickle.html) Awkward Arrays and drag the pickle files into GitHub issues. That's probably the easiest way to supply an example.)
-      placeholder: |
-        What you were trying to do...
-
-        ```python
-        import awkward as ak
-
-        reproducer...
-        ```
-
-        What you expected and what happened instead.
+      render: markdown
     validations:
       required: true

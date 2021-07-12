@@ -22,5 +22,7 @@ body:
     attributes:
       label: "Description of new feature"
       placeholder: "Tell us what you need."
+      description: |
+        Please be specific, with code examples and expected output (in [backticks](https://www.markdownguide.org/extended-syntax/#fenced-code-blocks)) where it would help.
     validations:
       required: true
